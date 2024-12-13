@@ -45,5 +45,32 @@ public class Main {
         }
         System.out.println(people[people.length - 1]);
 
+        System.out.println();
+        System.out.println("Звадание-3");
+        for (int i = number.length - 1; i >= 0; i--) {
+            if (i == 0) {
+                System.out.print(number[i]);
+                break;
+            }
+            System.out.print(number[i] + ",");
+        }
+
+        System.out.println();
+        for (int i = numberDrobnve.length - 1; i >= 0; i--) {
+            if (i == 0) {
+                System.out.print(numberDrobnve[i]);
+                break;
+            }
+            System.out.print(numberDrobnve[i] + ",");
+        }
+
+        System.out.println();
+        for (int i = people.length - 1; i >= 0; i--) {
+            if (i==0){
+                System.out.print(people[i]);
+                break;
+            }
+            System.out.print(people[i] + ",");}
+
     }
 }
