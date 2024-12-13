@@ -66,11 +66,12 @@ public class Main {
 
         System.out.println();
         for (int i = people.length - 1; i >= 0; i--) {
-            if (i==0){
+            if (i == 0) {
                 System.out.print(people[i]);
                 break;
             }
-            System.out.print(people[i] + ",");}
+            System.out.print(people[i] + ",");
+        }
 
     }
 }
