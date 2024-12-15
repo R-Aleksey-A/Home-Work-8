@@ -3,6 +3,7 @@ import java.util.Arrays;
 public class Main {
     public static void main(String[] args) {
         System.out.println("Home Work-8");
+
         System.out.println("Задание-1");
         int[] number = new int[3];
         number[0] = 1;
@@ -24,10 +25,12 @@ public class Main {
         System.out.println();
 
         System.out.println("Звадание-2");
+
         System.out.println("Вариант с помощью Arra.toString");
         System.out.println(Arrays.toString(number));
         System.out.println(Arrays.toString(numberDrobnve));
         System.out.println(Arrays.toString(people));
+
         System.out.println("Вариант спомощью Цикла");
         for (int i = 0; i < number.length - 1; i++) {
             System.out.print(number[i] + ",");
@@ -73,5 +76,18 @@ public class Main {
             System.out.print(people[i] + ",");
         }
 
+        System.out.println();
+        System.out.println("Звадание-4");
+        for (int i = 0; i < number.length; i++) {
+
+            if (number[i] % 2 != 0) {
+                number[i]++;
+
+                System.out.print(number[i]);
+
+                if (i != number.length - 1)
+                    System.out.print(",");
+            }
+        }
     }
 }
