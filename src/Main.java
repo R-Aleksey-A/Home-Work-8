@@ -78,16 +78,14 @@ public class Main {
 
         System.out.println();
         System.out.println("Звадание-4");
-        for (int i = 0; i < number.length; i++) {
 
+        for (int i = 0; i < number.length; i++) {
             if (number[i] % 2 != 0) {
                 number[i]++;
-
-                System.out.print(number[i]);
-
-                if (i != number.length - 1)
-                    System.out.print(",");
             }
+            System.out.print(number[i]);
+            if (i != number.length - 1)
+                System.out.print(",");
         }
     }
 }
